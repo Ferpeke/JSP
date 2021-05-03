@@ -35,7 +35,6 @@ $(document).ready(function(){
           $('#password').val('');
           
         } else {
-          console.log(resultado);
           swal("Error al Guardar", {
             icon: "error",
           })
